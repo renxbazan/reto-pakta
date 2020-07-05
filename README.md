@@ -19,12 +19,12 @@ Se ha creado un proyecto en NodeJs con Serverless , el cual expone 4 endpoints:
 **Nota:** El despliegue en local es posible gracias al plugin de serverless **serverless-offline** 
 
 ```batch
+# instalacion de dependencias npm
+$ npm install
+
 # configuracion de credenciales aws a Serverless (Tiene los datos de mi cuenta, si quieres configurar en una propia, 
 	reemplazar el key y el Secret con los de tu cuenta).
 $ serverless config credentials --provider aws --key {AWS KEY} --secret {AWS SECRET}
-
-# instalacion de dependencias npm
-$ npm install
 
 # iniciar servicios en local
 $ serverless offline
