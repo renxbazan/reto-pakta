@@ -1,7 +1,7 @@
 # Reto Pakta
 
 > Reto técnico para ingresar al equipo de Pakta (Rimac)
-> **Importante!** este proyecto requiere tener instalado **Serverless!**.
+> **Importante!** este proyecto requiere tener instalado **Serverless!** version de NPM : 6.13.4 y version de NodeJs: 10.19.0.
 
 ## Acerca de este Proyecto
 Se ha creado un proyecto en NodeJs con Serverless , el cual expone 4 endpoints:
