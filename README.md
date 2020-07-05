@@ -18,7 +18,7 @@ Se ha creado un proyecto en NodeJs con Serverless , el cual expone 4 endpoints:
 4. reto-pakta-dev-findByName : 
  - Este endpoint está intregado con [The Star Wars API](https://swapi.py4e.com/documentation) y 
    tiene un parámetro opcional el cual es **nombre**.Internamente, llama al path /people del API 
-   y si recibe el parámetro nombre, intermente filtra el response para luego ser convertido al json 
+   y si recibe el parámetro nombre, la aplicacion filtra el response para luego ser convertido al json 
    solicitado (traducción al español).Si no recibe el parámetro nombre, solo convierte el response 
    al json solicitado.**Path: /starwars/people(?nombre)** **Metodo HTTP: GET** 
 
