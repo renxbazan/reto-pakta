@@ -6,7 +6,7 @@
   "dependencies": {
     "joi": "^14.3.1",
     "mysql": "^2.18.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "serverless-offline": "^6.4.0",
     "serverless-plugin-include-dependencies": "^4.1.0"
   },
